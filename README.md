@@ -19,18 +19,18 @@ Each module is designed and tested independently and then integrated into the to
 
 ## Project Structure
 
-├── README.md ← This file
-├── aLu.v ← ALU operation definitions
-├── alu_module.v ← Wrapper or variant of the ALU
-├── control_unit.v ← Main control logic unit
-├── controlunit.v ← Alternate version of control logic (decoder etc.)
-├── execution.v ← Execution stage wiring logic
-├── execution_unit.v ← Execution stage module
-├── flag.v ← Zero/Carry/Sign flag computation
-├── instruction_decoder.v ← Instruction decoding logic
-├── microcontroller.v ← Top-level integrated microcontroller
-├── register.v ← Register file (read/write logic)
-└── testbench.v ← Testbench for simulating full microcontroller
+-├── README.md ← This file
+-├── aLu.v ← ALU operation definitions
+-├── alu_module.v ← Wrapper or variant of the ALU
+-├── control_unit.v ← Main control logic unit
+-├── controlunit.v ← Alternate version of control logic (decoder etc.)
+-├── execution.v ← Execution stage wiring logic
+-├── execution_unit.v ← Execution stage module
+-├── flag.v ← Zero/Carry/Sign flag computation
+-├── instruction_decoder.v ← Instruction decoding logic
+-├── microcontroller.v ← Top-level integrated microcontroller
+-├── register.v ← Register file (read/write logic)
+-└── testbench.v ← Testbench for simulating full microcontroller
 
 
 ---
